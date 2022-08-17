@@ -534,19 +534,22 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
   goblok = fs.readFileSync('./video/ga.jpg')
-                xavior.sendMessage(m.chat, { image: goblok, caption: `┌──⭓ *Sewa Bot*
+                xavior.sendMessage(m.chat, { image: goblok, caption: `┌──⭓ *Sewa Bot*
+
 │⭔ 1 Minggu :10k
 │⭔ 1 Bulan :15k
 │⭔ Permanen :20k
 └───────⭓
-┌──⭓ *Jadi Bot*
+┌──⭓ *Jadi Bot*
+
 │⭔ Jasa Jadi Bot: 30k
-│⭔ Jadi Owner AzzBot: 15k
+│⭔ Jadi Owner RukaBot: 15k
 └───────⭓
-┌──⭓ *Harga Sc Bot Wa*
+┌──⭓ *Harga Sc Bot Wa*
+
 │⭔ Versi 1 :20k
 │⭔ Versi 2 :25k
-│⭔ Free :Di Yt MBY•OFFICIAL
+│⭔ Free :Di Ig amirbot_01
 └───────⭓` }, { quoted: m })
             }
             case 'subscribe':{
@@ -1642,13 +1645,13 @@ break
                     image: { url: anu.thumbnail },
                     caption: `
 ⭔ *Title* : Tutor Buat Bot Seperti Di Gc 🗿
-⭔ *No Wa*: 081511480762
+⭔ *No Wa*: 082154156241
 ⭔ *Duration* : 24Hours
 ⭔ *Viewers* : 14M views
 ⭔ *Upload* At : 1 years ago
-⭔ *Author* : MBY•OFFICIAL 
+⭔ *Author* : amirbot_01 
 ⭔ *Channel* : ${anu.author.url}
-⭔ *Description* : Gak Subrek Bot Mati!
+⭔ *Description* : Gak Follow Bot Mati!
 ⭔ *Url* : ${anu.url}`,
                     footer: global.author,
                     buttons: buttons,
@@ -2613,9 +2616,9 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             break
             case 'ping': case 'botstatus': case 'statusbot': { m.reply(`             
 📱Info Server
-*Device:* Sony Xperia XZ3
-*RAM:* 8/128 GB
-*Chipset:* Snapdragon 865`)
+*Device:* Realme C15
+*RAM:* 4/64 GB
+*Chipset:* Snapdragon 500`)
             }
             break
             case 'speedtest': {
@@ -2945,8 +2948,8 @@ Siap Melayani Anda
 Ketik (.menu) Untuk Mengakses
 Mau Script? Bisa Chat Owner
 Thanks Sudah Menggunakan
-AzzBot-MD Jangan Lupa Subscribe
-Chanel : https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+𝙍𝙐𝙆𝘼 - 𝘽𝙊𝙏 Jangan Lupa Follow
+Ig : https://instagram.com/amirbot_01
 Nih Musik Buat Menghibur
 ───────⭓`
             let btn = [{
@@ -2978,8 +2981,8 @@ break
  case 'allmenu': {
                 anu = `
 
-┌──⭓ *𝘈𝘻𝘻𝘉𝘰𝘵•𝘔𝘋*
-│⭔ 𝘖𝘸𝘯𝘦𝘳:𝗬𝗮𝗵𝘆𝗮 
+┌──⭓ *𝙍𝙐𝙆𝘼 - 𝘽𝙊𝙏*
+│⭔ 𝘖𝘸𝘯𝘦𝘳:𝘼𝙈𝙄𝙍𝙍 𝙓 
 │⭔ 𝘝𝘦𝘳𝘴𝘪𝘰𝘯: 4.0
 │⭔ 𝘙𝘶𝘯𝘝𝘪𝘢:𝘏𝘦𝘳𝘰𝘬𝘶
 └───────⭓
@@ -3303,8 +3306,8 @@ break
 │
 └───────⭓
 
-𝐀𝐳𝐳𝐁𝐨𝐭•𝐌𝐃
-𝐁𝐲:𝐘𝐚𝐡𝐲𝐚𝐆𝐚𝐧𝐳𝐳|𝘷𝘦𝘳𝘴𝘪𝘰𝘯 4.0`
+𝙍𝙐𝙆𝘼 - 𝘽𝙊𝙏
+𝐁𝐲:𝘼𝙈𝙄𝙍𝙍 𝙓|𝘷𝘦𝘳𝘴𝘪𝘰𝘯 4.0`
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
